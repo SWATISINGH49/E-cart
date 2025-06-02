@@ -1,0 +1,36 @@
+.carousel-container {
+    width: 100%;
+    position: relative;
+}
+
+.slick-slide img {
+    width: 100%; /* Ensure images take full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-arrow {
+    font-size: 30px; /* Adjust size as needed */
+    color: #fff; /* Change color to fit your design */
+    z-index: 1;
+}
+
+.custom-arrow.next {
+    right: 10px; /* Position next arrow */
+}
+
+.custom-arrow.prev {
+    left: 10px; /* Position previous arrow */
+}
+
+
+
+.image-container {
+    width: 100%;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.full-width-image {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space in some browsers */
+}
